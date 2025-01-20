@@ -1,0 +1,21 @@
+# Ignore .idea (JetBrains IDE settings)
+.idea/
+
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# Ignore log files
+*.log
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files (macOS, Windows, Linux)
+.DS_Store
+Thumbs.db
