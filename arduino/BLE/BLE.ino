@@ -2,18 +2,20 @@
 #include "LSM6DS3.h"
 #include "Wire.h"
 
+unsigned long startTime = 0; // Store the BLE connection start time
+
+
 // Create an instance of class LSM6DS3
 LSM6DS3 myIMU(I2C_MODE, 0x6A); // I2C device address 0x6A
 
 // Define BLE service and characteristics
 BLEService imuService("12345678-1234-1234-1234-123456789abc"); // Custom UUID for IMU service
-
-BLECharacteristic accelCharacteristic("2C06", BLERead | BLENotify, 20); // Accelerometer data
-BLECharacteristic gyroCharacteristic("2C09", BLERead | BLENotify, 20); // Gyroscope data
+BLECharacteristic accelCharacteristic("2C06", BLERead | BLENotify, 50); // Increased size for Accelerometer data
+BLECharacteristic gyroCharacteristic("2C09", BLERead | BLENotify, 50); // Increased size for Gyroscope data
 
 void setup() {
   Serial.begin(9600);
-  while (!Serial);
+
 
   // Initialize IMU
   if (myIMU.begin() != 0) {
@@ -54,6 +56,8 @@ void loop() {
     Serial.print("Connected to central: ");
     Serial.println(central.address());
 
+    startTime = millis(); // Reset the timer when BLE connects
+
     // While the central device is connected
     while (central.connected()) {
       // Read accelerometer data
@@ -66,17 +70,20 @@ void loop() {
       float gyroY = myIMU.readFloatGyroY();
       float gyroZ = myIMU.readFloatGyroZ();
 
-      // Prepare accelerometer data as a string
-      String accelData = String(accelX, 4) + "," + String(accelY, 4) + "," + String(accelZ, 4);
+      // Get timestamp (optional)
+      unsigned long timestamp = (millis() - startTime);
+
+      // Prepare accelerometer data as a string (including temperature and timestamp)
+      String accelData = String(accelX, 4) + "," + String(accelY, 4) + "," + String(accelZ, 4) + "," + String(timestamp);
       accelCharacteristic.writeValue(accelData.c_str(), accelData.length());
       Serial.println("Accelerometer Data Sent: " + accelData);
 
-      // Prepare gyroscope data as a string
-      String gyroData = String(gyroX, 4) + "," + String(gyroY, 4) + "," + String(gyroZ, 4);
+      // Prepare gyroscope data as a string 
+      String gyroData = String(gyroX, 4) + "," + String(gyroY, 4) + "," + String(gyroZ, 4) + "," + String(timestamp);
       gyroCharacteristic.writeValue(gyroData.c_str(), gyroData.length());
       Serial.println("Gyroscope Data Sent: " + gyroData);
 
-      delay(500); // Send data every 500 ms
+      delay(100); // Send data every 100 ms (10 Hz)
     }
 
     // If the central disconnects
