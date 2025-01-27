@@ -139,5 +139,5 @@ async def main():
 
         print("[INFO] Stopping data collection and saving CSV.")
 
-if __name__ == "__main__":
+if __name__ == "__main__": v
     asyncio.run(main())
