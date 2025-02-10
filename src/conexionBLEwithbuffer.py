@@ -1,6 +1,8 @@
 import asyncio
 import csv
 import os
+import queue
+import threading
 import keyboard  # Requires `pip install keyboard`
 from bleak import BleakClient, BleakScanner
 
@@ -13,19 +15,16 @@ GYRO_CHARACTERISTIC_UUID = "2C09"
 data_folder = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data')
 os.makedirs(data_folder, exist_ok=True)
 
-# CSV file setup (overwrite existing file)
+# CSV file setup
 csv_filename = os.path.join(data_folder, "imu_data.csv")
 
-# Write header (overwrite file) at the start of the program
-with open(csv_filename, mode="w", newline="") as csv_file:
-    fieldnames = ['timestamp', 'gyrox', 'gyroy', 'gyroz', 'accelx', 'accely', 'accelz']
-    writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-    writer.writeheader()
+# Create a queue for buffering data before writing
+data_queue = queue.Queue()
 
-# Flag to track when to stop
+# Flag to stop recording
 stop_flag = False
 
-# Data storage to accumulate readings for one row
+# Data storage
 data_row = {'timestamp': '', 'gyrox': '', 'gyroy': '', 'gyroz': '', 'accelx': '', 'accely': '', 'accelz': ''}
 
 # Function to detect spacebar press
@@ -64,11 +63,12 @@ def accel_handler(sender, data):
         data_row['accelx'] = accelx
         data_row['accely'] = accely
         data_row['accelz'] = accelz
-        data_row['timestamp'] = (timestamp)/1000  # Ensure timestamp is an integer
+        data_row['timestamp'] = timestamp / 1000  # Convert to seconds
 
         # Only write the row when both accelerometer and gyroscope data are received
         if data_row['gyrox'] != '':
-            write_data_row()
+            data_queue.put(data_row.copy())  # Send row to writer thread
+            reset_data_row()
     except Exception as e:
         print(f"Error decoding accelerometer data: {e}")
 
@@ -85,28 +85,34 @@ def gyro_handler(sender, data):
         data_row['gyrox'] = gyrox
         data_row['gyroy'] = gyroy
         data_row['gyroz'] = gyroz
-        data_row['timestamp'] = (timestamp)/1000  # Ensure timestamp is an integer
+        data_row['timestamp'] = timestamp / 1000  # Convert to seconds
 
         # Only write the row when both accelerometer and gyroscope data are received
         if data_row['accelx'] != '':
-            write_data_row()
+            data_queue.put(data_row.copy())  # Send row to writer thread
+            reset_data_row()
     except Exception as e:
         print(f"Error decoding gyroscope data: {e}")
-
-def write_data_row():
-    global data_row
-    with open(csv_filename, mode="a", newline="") as csv_file:
-        writer = csv.DictWriter(csv_file, fieldnames=['timestamp', 'gyrox', 'gyroy', 'gyroz', 'accelx', 'accely', 'accelz'])
-        writer.writerow(data_row)
-        print(f"[DATA SAVED] {data_row}")
-
-    # Reset the row for the next data entry
-    reset_data_row()
 
 # Function to reset the data row for the next entry
 def reset_data_row():
     global data_row
     data_row = {'timestamp': '', 'gyrox': '', 'gyroy': '', 'gyroz': '', 'accelx': '', 'accely': '', 'accelz': ''}
+
+# Writer thread function
+def write_data_thread():
+    with open(csv_filename, mode="w", newline="") as csv_file:
+        fieldnames = ['timestamp', 'gyrox', 'gyroy', 'gyroz', 'accelx', 'accely', 'accelz']
+        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+        writer.writeheader()
+
+        while not stop_flag or not data_queue.empty():
+            try:
+                row = data_queue.get(timeout=1)  # Wait for data (max 1 second)
+                writer.writerow(row)
+                print(f"[DATA SAVED] {row}")
+            except queue.Empty:
+                pass  # No new data, keep looping
 
 # Main function to connect and read data
 async def main():
@@ -115,6 +121,10 @@ async def main():
     # Start key listener in a separate thread
     loop = asyncio.get_event_loop()
     loop.run_in_executor(None, wait_for_spacebar)
+
+    # Start writer thread
+    writer_thread = threading.Thread(target=write_data_thread, daemon=True)
+    writer_thread.start()
 
     device_address = await find_device()
     if not device_address:
@@ -138,6 +148,10 @@ async def main():
             await asyncio.sleep(0.5)
 
         print("[INFO] Stopping data collection and saving CSV.")
+
+    # Ensure writer thread finishes
+    writer_thread.join()
+    print("[INFO] Data collection complete.")
 
 if __name__ == "__main__":
     asyncio.run(main())

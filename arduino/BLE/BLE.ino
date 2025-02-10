@@ -83,7 +83,7 @@ void loop() {
       gyroCharacteristic.writeValue(gyroData.c_str(), gyroData.length());
       Serial.println("Gyroscope Data Sent: " + gyroData);
 
-      delay(100); // Send data every 100 ms (10 Hz)
+      delay(10); // Send data every 100 ms (10 Hz)
     }
 
     // If the central disconnects

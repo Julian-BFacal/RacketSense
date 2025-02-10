@@ -3,6 +3,12 @@
 * SONY: SSE-TN1W
 * Zepp Tennis 2
 
+# Github en que basearse
+1. [Proxecto frances IMU](https://github.com/Infa60/Classification-tennis-IMU)
+2. [Proxecto frances APP](https://github.com/Infa60/Classification-tennis-App)
+3. [Dataset video](https://github.com/chow-vincent/tennis_action_recognition)
+4. [Prueba datasets y modelos](https://github.com/Joshua-Weaver1/Tennis-Stroke-Classifier)
+
 # Resumen Papers
 
 ## Papers Tenis de Mesa
@@ -17,6 +23,8 @@
 3. [Tennis Stroke Classification: ComparingWrist and Racket as IMU Sensor Position](./ComparingWrist&Racket.pdf)
 
 ### [Resumen Paper 1](./ForehandGyro.pdf)
+7 Sensores de Gryo establecidos en diferentes puntos do corpo.
+A   velocidade angular obtida polos sensores xiróscopos debe ser transformada en ángulos de roll-pitch-yaw.
 ### [Resumen Paper 2](./An_embedded_6-axis_sensor_based_recognition_for_tennis_stroke.pdf)
 ![Paper3modelo](Paper3modelo.png)
 Microcontrolador de 6 eixes JY-61. Modulo de control STM32F405 por BLuettoth. Instalado en raqueta, realtime a mobil. (98% golpes, 96% efectos)
@@ -73,3 +81,10 @@ pp. 1–4, 2015.
 7. http://www.st.com/content/ccc/resource/technical/document/datasheet/ef/92/76/6d/bb/c2/4f/f7/DM00037051.pdf/files/DM00037051.pdf/jcr:content/translations/en.DM00037051.pdf
 # Borrador Anteproxecto
 [Borrador](./MUEI_Solicitude_Anteproxecto.docx)
+
+# Idea posible sistema
+1. IMU Data Collection (Python on Android) → Using BLE (Bluetooth Low Energy), you collect IMU data on your mobile device.
+2. Send Data to Cloud → Use Firebase, AWS, or a REST API to send data to a cloud database.
+3. Process Data in the Cloud → Apply ML models or signal processing (on Google Cloud Functions, AWS Lambda, or a Python server).
+4. Store Processed Data → Save results in a database (Firebase, PostgreSQL, etc.).
+5. Retrieve Data in an Android App → The app fetches processed data from the cloud.
