@@ -1,0 +1,43 @@
+{
+  "video_info": {
+    "video_id": "peloteoJorge",
+    "title": "Shot Sequence Video",
+    "duration_seconds": 120,
+    "frame_rate": 30
+  },
+  "tags": [
+    {
+      "stroke_id": 1,
+      "label": "forehand",
+      "stroke_time_video": 6.868,
+      "end_time_video": 7.7695,
+      "both_hands_video": 8.172,
+      "video_diff": 0.90151,
+      "both_hands_diff_from_start": 1.304,
+      "stroke_time_data": 10.89799,
+      "end_time_data": 11.8588,
+      "both_hands_data": 12.261,
+      "data_diff": 0.96081
+    },
+
+    {
+      "stroke_id": 2,
+      "label": "forehand",
+      "start_time": 45.120,
+      "end_time": 46.340,
+      "description": "A smooth forehand return",
+      "coordinates": {
+        "x": 215,
+        "y": 400
+      },
+      "related_data": {
+        "accelx": 0.95,
+        "accely": -0.10,
+        "accelz": 0.55,
+        "gyrox": -0.01,
+        "gyroy": 0.05,
+        "gyroz": -0.02
+      }
+    }
+  ]
+}

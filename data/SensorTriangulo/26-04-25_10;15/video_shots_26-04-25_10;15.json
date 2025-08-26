@@ -1,0 +1,176 @@
+[
+  {
+    "video_time": 19.453,
+    "shot_type": "forehand"
+  },
+  {
+    "video_time": 24.584,
+    "shot_type": "forehand",
+    "time_diff": 5.131
+  },
+  {
+    "video_time": 27.148,
+    "shot_type": "forehand",
+    "time_diff": 2.564
+  },
+  {
+    "video_time": 30.714,
+    "shot_type": "forehand",
+    "time_diff": 3.566
+  },
+  {
+    "video_time": 34.876,
+    "shot_type": "forehand",
+    "time_diff": 4.162
+  },
+  {
+    "video_time": 39.476,
+    "shot_type": "forehand",
+    "time_diff": 4.6
+  },
+  {
+    "video_time": 42.640,
+    "shot_type": "backhand",
+    "time_diff": 3.164
+  },
+  {
+    "video_time": 46.403,
+    "shot_type": "backhand",
+    "time_diff": 3.763
+  },
+  {
+    "video_time": 51.931,
+    "shot_type": "serve",
+    "time_diff": 5.528
+  },
+  {
+    "video_time": 60.492,
+    "shot_type": "forehand",
+    "time_diff": 8.561
+  },
+  {
+    "video_time": 63.924,
+    "shot_type": "backhand",
+    "time_diff": 3.432
+  },
+  {
+    "video_time": 91.770,
+    "shot_type": "serve",
+    "time_diff": 27.846
+  },
+  {
+    "video_time": 95.769,
+    "shot_type": "backhand",
+    "time_diff": 3.999
+  },
+  {
+    "video_time": 100.633,
+    "shot_type": "forehand",
+    "time_diff": 4.864
+  },
+  {
+    "video_time": 105.796,
+    "shot_type": "forehand",
+    "time_diff": 5.163
+  },
+  {
+    "video_time": 110.310,
+    "shot_type": "forehand",
+    "time_diff": 4.514
+  },
+  {
+    "video_time": 115.155,
+    "shot_type": "forehand",
+    "time_diff": 4.845
+  },
+  {
+    "video_time": 120.210,
+    "shot_type": "forehand",
+    "time_diff": 5.055
+  },
+  {
+    "video_time": 124.149,
+    "shot_type": "forehand",
+    "time_diff": 3.939
+  },
+  {
+    "video_time": 128.860,
+    "shot_type": "backhand",
+    "time_diff": 4.711
+  },
+  {
+    "video_time": 134.376,
+    "shot_type": "forehand",
+    "time_diff": 5.516
+  },
+  {
+    "video_time": 136.850,
+    "shot_type": "forehand",
+    "time_diff": 2.474
+  },
+  {
+    "video_time": 140.671,
+    "shot_type": "forehand",
+    "time_diff": 3.821
+  },
+  {
+    "video_time": 145.501,
+    "shot_type": "forehand",
+    "time_diff": 4.83
+  },
+  {
+    "video_time": 151.831,
+    "shot_type": "serve",
+    "time_diff": 6.33
+  },
+  {
+    "video_time": 156.128,
+    "shot_type": "forehand",
+    "time_diff": 4.297
+  },
+  {
+    "video_time": 159.859,
+    "shot_type": "forehand",
+    "time_diff": 3.731
+  },
+  {
+    "video_time": 163.565,
+    "shot_type": "backhand",
+    "time_diff": 3.706
+  },
+  {
+    "video_time": 168.919,
+    "shot_type": "backhand",
+    "time_diff": 5.354
+  },
+  {
+    "video_time": 175.581,
+    "shot_type": "backhand",
+    "time_diff": 6.662
+  },
+  {
+    "video_time": 182.609,
+    "shot_type": "backhand",
+    "time_diff": 7.028
+  },
+  {
+    "video_time": 186.506,
+    "shot_type": "forehand",
+    "time_diff": 3.897
+  },
+  {
+    "video_time": 190.340,
+    "shot_type": "backhand",
+    "time_diff": 3.834
+  },
+  {
+    "video_time": 197.965,
+    "shot_type": "forehand",
+    "time_diff": 7.625
+  },
+  {
+    "video_time": 206.126,
+    "shot_type": "forehand",
+    "time_diff": 8.161
+  }
+]

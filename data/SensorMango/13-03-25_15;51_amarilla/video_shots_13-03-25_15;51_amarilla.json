@@ -1,0 +1,113 @@
+[
+  {
+   "video_time": 5.998,
+   "shot_type": "forehand",
+    "description": "low serve"
+  },
+  {
+   "video_time": 9.594,
+    "time_diff": 3.596,
+   "shot_type": "forehand",
+    "description": "low kinda close to the body"
+  },
+    {
+   "video_time": 20.686,
+    "time_diff": 11.092,
+   "shot_type": "forehand"
+  },
+  {
+   "video_time": 24.550,
+    "time_diff": 3.864,
+   "shot_type": "smash"
+  },
+  {
+   "video_time": 26.982,
+    "time_diff": 2.432,
+   "shot_type": "forehand",
+    "description": "low serve"
+  },
+  {
+     "video_time": 31.445,
+      "time_diff": 4.463,
+     "shot_type": "forehand"
+  },
+  {
+   "video_time": 35.976,
+    "time_diff": 4.531,
+   "shot_type": "forehand"
+  },
+  {
+   "video_time": 39.874,
+    "time_diff": 3.898,
+   "shot_type": "forehand",
+    "description": "Low shot"
+  },
+  {
+   "video_time": 44.070,
+    "time_diff": 4.196,
+   "shot_type": "backhand",
+    "description": "Low shot"
+  },
+  {
+   "video_time": 47.502,
+    "time_diff": 3.432,
+   "shot_type": "forehand"
+  },
+    {
+   "video_time": 52.498,
+    "time_diff": 4.996,
+   "shot_type": "forehand",
+      "description": "Low serve"
+  },
+    {
+   "video_time": 56.195,
+    "time_diff": 3.697,
+   "shot_type": "forehand"
+  },
+    {
+   "video_time": 59.061,
+    "time_diff": 2.866,
+   "shot_type": "smash"
+  },
+    {
+   "video_time": 63.863,
+    "time_diff": 4.802,
+   "shot_type": "forehand"
+  },  {
+   "video_time": 69.252,
+    "time_diff": 5.389,
+   "shot_type": "backhand"
+  },
+    {
+   "video_time": 72.751,
+    "time_diff": 3.499,
+   "shot_type": "smash"
+  },
+  {
+   "video_time": 81.046,
+    "time_diff": 8.295,
+   "shot_type": "forehand"
+  },
+  {
+   "video_time": 85.808,
+    "time_diff": 4.762,
+   "shot_type": "forehand"
+  },
+  {
+   "video_time": 89.872,
+    "time_diff": 4.064,
+   "shot_type": "backhand"
+  },
+  {
+   "video_time": 94.236,
+    "time_diff": 4.364,
+   "shot_type": "forehand"
+  },
+    {
+   "video_time": 98.137,
+    "time_diff": 3.901,
+   "shot_type": "forehand"
+  }
+
+
+]

@@ -1,0 +1,116 @@
+[
+    {
+        "shot_number": 1,
+        "start_time": 37.516,
+        "peak_time": 37.739,
+        "end_time": 37.842,
+        "diff_from_prev": null
+    },
+    {
+        "shot_number": 2,
+        "start_time": 42.102,
+        "peak_time": 42.412,
+        "end_time": 42.707,
+        "diff_from_prev": 4.673000000000002
+    },
+    {
+        "shot_number": 3,
+        "start_time": 49.58,
+        "peak_time": 49.76,
+        "end_time": 50.245,
+        "diff_from_prev": 7.347999999999999
+    },
+    {
+        "shot_number": 4,
+        "start_time": 53.424,
+        "peak_time": 53.755,
+        "end_time": 54.16,
+        "diff_from_prev": 3.9950000000000045
+    },
+    {
+        "status": "bad",
+        "shot_number": 5,
+        "start_time": 55.826,
+        "peak_time": 55.86,
+        "end_time": 55.907,
+        "diff_from_prev": 2.104999999999997
+    },
+    {
+        "shot_number": 6,
+        "start_time": 57.431,
+        "peak_time": 57.677,
+        "end_time": 57.808,
+        "diff_from_prev": 1.8170000000000002
+    },
+    {
+        "shot_number": 7,
+        "start_time": 65.117,
+        "peak_time": 65.285,
+        "end_time": 65.383,
+        "diff_from_prev": 7.607999999999997
+    },
+    {
+        "shot_number": 8,
+        "start_time": 69.517,
+        "peak_time": 69.831,
+        "end_time": 69.967,
+        "diff_from_prev": 4.5460000000000065
+    },
+    {
+        "shot_number": 9,
+        "start_time": 73.489,
+        "peak_time": 73.747,
+        "end_time": 73.9,
+        "diff_from_prev": 3.915999999999997
+    },
+    {
+        "shot_number": 10,
+        "start_time": 78.395,
+        "peak_time": 78.605,
+        "end_time": 78.698,
+        "diff_from_prev": 4.858000000000004
+    },
+    {
+        "shot_number": 11,
+        "start_time": 100.513,
+        "peak_time": 100.734,
+        "end_time": 101.196,
+        "diff_from_prev": 22.12899999999999
+    },
+    {
+        "shot_number": 12,
+        "start_time": 103.858,
+        "peak_time": 104.006,
+        "end_time": 104.279,
+        "diff_from_prev": 3.2720000000000056
+    },
+    {
+        "shot_number": 13,
+        "start_time": 115.355,
+        "peak_time": 115.574,
+        "end_time": 115.67,
+        "diff_from_prev": 11.567999999999998
+    },
+    {
+        "status": "bad",
+        "shot_number": 14,
+        "start_time": 117.799,
+        "peak_time": 117.831,
+        "end_time": 117.95,
+        "diff_from_prev": 2.257000000000005
+    },
+    {
+        "shot_number": 15,
+        "start_time": 119.489,
+        "peak_time": 119.675,
+        "end_time": 119.759,
+        "diff_from_prev": 1.843999999999994
+    },
+    {
+        "shot_number": 16,
+        "start_time": 123.5,
+        "peak_time": 123.809,
+        "end_time": 124.481,
+        "diff_from_prev": 4.134
+    }
+]

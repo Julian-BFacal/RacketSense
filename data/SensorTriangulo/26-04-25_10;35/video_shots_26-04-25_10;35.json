@@ -1,0 +1,131 @@
+[
+  {
+    "video_time": 34.044,
+    "shot_type": "serve"
+  },
+  {
+    "video_time": 43.138,
+    "shot_type": "serve",
+    "time_diff": 9.094
+  },
+  {
+    "video_time": 54.663,
+    "shot_type": "serve",
+    "time_diff": 11.525
+  },
+  {
+    "video_time": 58.629,
+    "shot_type": "forehand",
+    "time_diff": 3.966
+  },
+  {
+    "video_time": 62.591,
+    "shot_type": "backhand",
+    "time_diff": 3.962
+  },
+  {
+    "video_time": 77.348,
+    "shot_type": "serve",
+    "time_diff": 14.757
+  },
+  {
+    "video_time": 85.941,
+    "shot_type": "serve",
+    "time_diff": 8.593
+  },
+  {
+    "video_time": 89.372,
+    "shot_type": "forehand",
+    "time_diff": 3.431
+  },
+  {
+    "video_time": 92.936,
+    "shot_type": "forehand",
+    "time_diff": 3.564
+  },
+  {
+    "video_time": 100.200,
+    "shot_type": "serve",
+    "time_diff": 7.264
+  },
+  {
+    "video_time": 109.092,
+    "shot_type": "serve",
+    "time_diff": 8.892
+  },
+  {
+    "video_time": 112.824,
+    "shot_type": "forehand",
+    "time_diff": 3.732
+  },
+  {
+    "video_time": 116.687,
+    "shot_type": "forehand",
+    "time_diff": 3.863
+  },
+  {
+    "video_time": 128.379,
+    "shot_type": "serve",
+    "time_diff": 11.692
+  },
+  {
+    "video_time": 164.587,
+    "shot_type": "backhand",
+    "time_diff": 36.208
+  },
+  {
+    "video_time": 168.385,
+    "shot_type": "forehand",
+    "time_diff": 3.798
+  },
+  {
+    "video_time": 210.023,
+    "shot_type": "forehand",
+    "time_diff": 41.638
+  },
+  {
+    "video_time": 213.260,
+    "shot_type": "forehand",
+    "time_diff": 4.568
+  },
+  {
+    "video_time": 219.005,
+    "shot_type": "forehand",
+    "time_diff": 5.745
+  },
+  {
+    "video_time": 230.344,
+    "shot_type": "forehand",
+    "time_diff": 11.339
+  },
+  {
+    "video_time": 233.517,
+    "shot_type": "forehand",
+    "time_diff": 3.173
+  },
+  {
+    "video_time": 237.587,
+    "shot_type": "forehand",
+    "time_diff": 4.07
+  },
+  {
+    "video_time": 241.303,
+    "shot_type": "forehand",
+    "time_diff": 3.716
+  },
+  {
+    "video_time": 245.175,
+    "shot_type": "forehand",
+    "time_diff": 3.872
+  },
+  {
+    "video_time": 258.582,
+    "shot_type": "forehand",
+    "time_diff": 13.407
+  },
+  {
+    "video_time": 265.482,
+    "shot_type": "backhand",
+    "time_diff": 6.9
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+   "video_time": 8.294,
+   "shot_type": "forehand",
+    "description": "Normal shot, ball goes middle"
+  },
+  {
+   "video_time": 18.610,
+    "time_diff": 10.316,
+   "shot_type": "forehand",
+    "description": "Low shot after bounce like a serve"
+  },
+  {
+   "video_time": 23.018,
+    "time_diff": 4.408,
+   "shot_type": "forehand",
+    "description": "Ball was high after impact"
+  },
+  {
+   "video_time": 29.380,
+    "time_diff": 6.362,
+   "shot_type": "forehand",
+    "description": "Low shot, ball goes middle"
+  },
+  {
+     "video_time": 34.378,
+      "time_diff": 4.998,
+     "shot_type": "forehand",
+    "description": "Normal shot, ball goes middle"
+  },
+  {
+   "video_time": 38.108,
+    "time_diff": 3.730,
+   "shot_type": "forehand",
+    "description": "High shot, ball goes middle"
+  },
+  {
+   "video_time": 41.539,
+    "time_diff": 3.431,
+   "shot_type": "backhand",
+    "description": "Kinda drop shot"
+  },
+  {
+   "video_time": 46.135,
+    "time_diff": 4.596,
+   "shot_type": "forehand",
+    "description": "Low shot late arrival"
+  },
+  {
+   "video_time": 49.899,
+    "time_diff": 3.764,
+   "shot_type": "forehand",
+    "description": "Middle shot,goes into net"
+  },
+    {
+   "video_time": 54.361,
+    "time_diff": 4.462,
+   "shot_type": "forehand",
+    "description": "Kinda drop shot"
+  },
+    {
+   "video_time": 57.795,
+    "time_diff": 3.434,
+   "shot_type": "forehand",
+    "description": "Middle shot goes kinda high"
+  },
+    {
+   "video_time": 62.191,
+    "time_diff": 4.396,
+   "shot_type": "forehand",
+    "description": "Middle shot,goes middle"
+  },
+    {
+   "video_time": 65.689,
+    "time_diff": 3.498,
+   "shot_type": "forehand",
+    "description": "Low shot drop shot"
+  },
+    {
+   "video_time": 70.986,
+    "time_diff": 5.297,
+   "shot_type": "backhand",
+    "description": "Low shot,goes high"
+  },
+      {
+   "video_time": 78.447,
+    "time_diff": 7.461,
+   "shot_type": "forehand",
+    "description": "Low shot, serves like"
+  },
+      {
+   "video_time": 83.877,
+    "time_diff": 5.430,
+   "shot_type": "forehand",
+    "description": "Low shot, goes middle/far"
+  },
+      {
+   "video_time": 87.475,
+    "time_diff": 3.598,
+   "shot_type": "backhand",
+    "description": "Middle shot,goes short"
+  },
+        {
+   "video_time": 91.804,
+    "time_diff": 4.329,
+   "shot_type": "backhand",
+    "description": "Low shot, drop shot"
+  },
+          {
+   "video_time": 96.498,
+    "time_diff": 4.694,
+   "shot_type": "backhand",
+    "description": "Low shot, drop middle"
+  }
+
+
+
+]

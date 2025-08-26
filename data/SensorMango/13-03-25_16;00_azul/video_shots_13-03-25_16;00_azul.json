@@ -1,0 +1,72 @@
+[
+  {
+   "video_time": 18.750,
+   "shot_type": "serve"
+  },
+  {
+   "video_time": 23.500,
+    "time_diff": 4.750,
+   "shot_type": "backhand"
+  },
+  {
+   "video_time": 30.750,
+    "time_diff": 7.250,
+   "shot_type": "serve"
+  },
+  {
+   "video_time": 34.750,
+    "time_diff": 4.000,
+   "shot_type": "forehand"
+  },
+    {
+     "video_time": 38.750,
+      "time_diff": 4.000,
+     "shot_type": "backhand"
+    },
+  {
+   "video_time": 46.250,
+    "time_diff": 7.500,
+   "shot_type": "serve"
+  },
+  {
+   "video_time": 51.000,
+    "time_diff": 4.750,
+   "shot_type": "forehand"
+  },
+  {
+   "video_time": 54.750,
+    "time_diff": 3.750,
+   "shot_type": "backhand"
+  },
+  {
+   "video_time": 58.210,
+    "time_diff": 3.460,
+   "shot_type": "forehand"
+  },
+  {
+   "video_time": 81.710,
+    "time_diff": 23.500,
+   "shot_type": "serve"
+  },
+  {
+   "video_time": 84.960,
+   "shot_type": "forehand",
+    "time_diff": 3.250,
+    "description": "Bad low shot"
+  },
+  {
+   "video_time": 96.710,
+    "time_diff": 11.750,
+   "shot_type": "serve"
+  },
+  {
+   "video_time": 100.710,
+    "time_diff": 4.000,
+   "shot_type": "forehand"
+  },
+  {
+   "video_time": 104.710,
+    "time_diff": 4.000,
+   "shot_type": "backhand"
+  }
+]

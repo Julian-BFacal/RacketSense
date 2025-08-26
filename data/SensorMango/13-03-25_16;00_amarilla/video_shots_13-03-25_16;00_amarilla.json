@@ -1,0 +1,48 @@
+[
+  {
+   "video_time": 20.187,
+   "shot_type": "backhand"
+  },
+  {
+   "video_time": 32.444,
+    "time_diff": 12.257,
+   "shot_type": "forehand"
+  },
+  {
+   "video_time": 35.560,
+    "time_diff": 3.116,
+   "shot_type": "forehand",
+    "description": "Low show cause it comes low close to the body"
+  },
+  {
+   "video_time": 47.834,
+    "time_diff": 12.274,
+   "shot_type": "backhand"
+  },
+  {
+     "video_time": 52.064,
+      "time_diff": 4.230,
+     "shot_type": "forehand"
+  },
+  {
+   "video_time": 56.727,
+    "time_diff": 4.766,
+   "shot_type": "smash"
+  },
+  {
+   "video_time": 83.009,
+    "time_diff": 26.282,
+   "shot_type": "forehand"
+  },
+  {
+   "video_time": 98.200,
+    "time_diff": 15.191,
+   "shot_type": "forehand"
+  },
+  {
+   "video_time": 102.910,
+    "time_diff": 4.710,
+   "shot_type": "forehand",
+    "description": "Low shot, best shot"
+  }
+]
