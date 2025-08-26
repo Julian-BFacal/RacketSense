@@ -1,0 +1,142 @@
+[
+    {
+        "peak_time": 34.41,
+        "label": "forehand"
+    },
+    {
+        "peak_time": 39.496,
+        "label": "forehand"
+    },
+    {
+        "peak_time": 42.059,
+        "label": "forehand"
+    },
+    {
+        "peak_time": 45.633,
+        "label": "forehand"
+    },
+    {
+        "peak_time": 49.813,
+        "label": "forehand"
+    },
+    {
+        "peak_time": 54.403,
+        "label": "forehand"
+    },
+    {
+        "peak_time": 57.577,
+        "label": "backhand"
+    },
+    {
+        "peak_time": 61.339,
+        "label": "backhand"
+    },
+    {
+        "peak_time": 66.843,
+        "label": "serve"
+    },
+    {
+        "peak_time": 75.421,
+        "label": "forehand"
+    },
+    {
+        "peak_time": 78.855,
+        "label": "backhand"
+    },
+    {
+        "peak_time": 106.717,
+        "label": "serve"
+    },
+    {
+        "peak_time": 110.704,
+        "label": "backhand"
+    },
+    {
+        "peak_time": 115.514,
+        "label": "forehand"
+    },
+    {
+        "peak_time": 120.706,
+        "label": "forehand"
+    },
+    {
+        "peak_time": 125.222,
+        "label": "forehand"
+    },
+    {
+        "peak_time": 130.079,
+        "label": "forehand"
+    },
+    {
+        "peak_time": 135.1,
+        "label": "forehand"
+    },
+    {
+        "peak_time": 139.231,
+        "label": "forehand"
+    },
+    {
+        "peak_time": 144.001,
+        "label": "backhand"
+    },
+    {
+        "peak_time": 149.306,
+        "label": "forehand"
+    },
+    {
+        "peak_time": 151.741,
+        "label": "forehand"
+    },
+    {
+        "peak_time": 155.585,
+        "label": "forehand"
+    },
+    {
+        "peak_time": 160.477,
+        "label": "forehand"
+    },
+    {
+        "peak_time": 166.774,
+        "label": "serve"
+    },
+    {
+        "peak_time": 171.049,
+        "label": "forehand"
+    },
+    {
+        "peak_time": 174.769,
+        "label": "forehand"
+    },
+    {
+        "peak_time": 178.644,
+        "label": "backhand"
+    },
+    {
+        "peak_time": 183.841,
+        "label": "backhand"
+    },
+    {
+        "peak_time": 190.488,
+        "label": "backhand"
+    },
+    {
+        "peak_time": 197.529,
+        "label": "backhand"
+    },
+    {
+        "peak_time": 201.414,
+        "label": "forehand"
+    },
+    {
+        "peak_time": 205.301,
+        "label": "backhand"
+    },
+    {
+        "peak_time": 212.885,
+        "label": "forehand"
+    },
+    {
+        "peak_time": 221.066,
+        "label": "forehand"
+    }
+]
