@@ -10,7 +10,7 @@ import numpy as np
 matplotlib.use('TkAgg')
 
 # Load the CSV data
-df = pd.read_csv('imu_data.csv')
+df = pd.read_csv('../data/variado.csv')
 resultant_accel = np.sqrt(df["accelx"]**2 + df["accely"]**2 + df["accelz"]**2)
 # Calculate Gyroscope Magnitude
 gyro_magnitude = np.sqrt(df["gyrox"]**2 + df["gyroy"]**2 + df["gyroz"]**2)
