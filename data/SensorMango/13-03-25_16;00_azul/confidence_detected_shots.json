@@ -1,0 +1,114 @@
+[
+    {
+        "shot_number": 1,
+        "peak_time": 37.739,
+        "diff_from_prev": null,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 2,
+        "peak_time": 42.494,
+        "diff_from_prev": 4.755,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 3,
+        "peak_time": 49.76,
+        "diff_from_prev": 7.266,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 4,
+        "peak_time": 53.769,
+        "diff_from_prev": 4.009,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 5,
+        "peak_time": 55.86,
+        "diff_from_prev": 2.091,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 6,
+        "peak_time": 57.659,
+        "diff_from_prev": 1.799,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 7,
+        "peak_time": 65.285,
+        "diff_from_prev": 7.626,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 8,
+        "peak_time": 69.918,
+        "diff_from_prev": 4.633,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 9,
+        "peak_time": 73.73,
+        "diff_from_prev": 3.812,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 10,
+        "peak_time": 78.621,
+        "diff_from_prev": 4.891,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 11,
+        "peak_time": 100.734,
+        "diff_from_prev": 22.113,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 12,
+        "peak_time": 103.956,
+        "diff_from_prev": 3.222,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 13,
+        "peak_time": 115.574,
+        "diff_from_prev": 11.618,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 14,
+        "peak_time": 117.831,
+        "diff_from_prev": 2.257,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 15,
+        "peak_time": 119.675,
+        "diff_from_prev": 1.844,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 16,
+        "peak_time": 123.793,
+        "diff_from_prev": 4.118,
+        "confidence": 100,
+        "source": "both"
+    }
+]

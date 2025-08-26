@@ -1,0 +1,110 @@
+[
+    {
+        "shot_number": 1,
+        "start_time": 14.85,
+        "peak_time": 15.088,
+        "end_time": 15.573,
+        "diff_from_prev": null,
+        "confidence": 15.508,
+        "source": "gyro"
+    },
+    {
+        "shot_number": 2,
+        "start_time": 27.166,
+        "peak_time": 27.433,
+        "end_time": 27.528,
+        "diff_from_prev": 12.345,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 3,
+        "start_time": 39.416,
+        "peak_time": 39.628,
+        "end_time": 39.815,
+        "diff_from_prev": 12.195,
+        "confidence": 84.018,
+        "source": "accel"
+    },
+    {
+        "shot_number": 4,
+        "start_time": 42.583,
+        "peak_time": 42.867,
+        "end_time": 43.244,
+        "diff_from_prev": 3.239,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 5,
+        "start_time": 54.82,
+        "peak_time": 54.975,
+        "end_time": 55.186,
+        "diff_from_prev": 12.108,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 6,
+        "start_time": 59.056,
+        "peak_time": 59.232,
+        "end_time": 59.764,
+        "diff_from_prev": 4.257,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 7,
+        "start_time": 63.587,
+        "peak_time": 63.9,
+        "end_time": 64.542,
+        "diff_from_prev": 4.668,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 8,
+        "start_time": 89.827,
+        "peak_time": 90.177,
+        "end_time": 90.488,
+        "diff_from_prev": 26.277,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 9,
+        "start_time": 90.539,
+        "peak_time": 90.914,
+        "end_time": 91.111,
+        "diff_from_prev": 0.737,
+        "confidence": 52.911,
+        "source": "gyro"
+    },
+    {
+        "shot_number": 10,
+        "start_time": 105.205,
+        "peak_time": 105.394,
+        "end_time": 105.946,
+        "diff_from_prev": 14.48,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 11,
+        "start_time": 109.789,
+        "peak_time": 109.989,
+        "end_time": 110.546,
+        "diff_from_prev": 4.595,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 12,
+        "start_time": 110.529,
+        "peak_time": 110.981,
+        "end_time": 111.35,
+        "diff_from_prev": 0.992,
+        "confidence": 49.786,
+        "source": "gyro"
+    }
+]

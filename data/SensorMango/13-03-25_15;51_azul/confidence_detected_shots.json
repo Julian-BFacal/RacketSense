@@ -1,0 +1,135 @@
+[
+    {
+        "shot_number": 1,
+        "peak_time": 75.102,
+        "diff_from_prev": null,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 2,
+        "peak_time": 85.309,
+        "diff_from_prev": 10.207,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 3,
+        "peak_time": 89.838,
+        "diff_from_prev": 4.529,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 4,
+        "peak_time": 96.041,
+        "diff_from_prev": 6.203,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 5,
+        "peak_time": 101.172,
+        "diff_from_prev": 5.131,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 6,
+        "peak_time": 104.841,
+        "diff_from_prev": 3.669,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 7,
+        "peak_time": 108.245,
+        "diff_from_prev": 3.404,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 8,
+        "peak_time": 112.915,
+        "diff_from_prev": 4.67,
+        "confidence": 93.669,
+        "source": "accel"
+    },
+    {
+        "shot_number": 9,
+        "peak_time": 116.676,
+        "diff_from_prev": 3.761,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 10,
+        "peak_time": 121.113,
+        "diff_from_prev": 4.437,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 11,
+        "peak_time": 124.47,
+        "diff_from_prev": 3.357,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 12,
+        "peak_time": 128.964,
+        "diff_from_prev": 4.494,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 13,
+        "peak_time": 132.478,
+        "diff_from_prev": 3.514,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 14,
+        "peak_time": 137.707,
+        "diff_from_prev": 5.229,
+        "confidence": 49.67,
+        "source": "gyro"
+    },
+    {
+        "shot_number": 15,
+        "peak_time": 145.149,
+        "diff_from_prev": 7.442,
+        "confidence": 96.733,
+        "source": "gyro"
+    },
+    {
+        "shot_number": 16,
+        "peak_time": 150.57,
+        "diff_from_prev": 5.421,
+        "confidence": 100,
+        "source": "both"
+    },
+    {
+        "shot_number": 17,
+        "peak_time": 154.136,
+        "diff_from_prev": 3.566,
+        "confidence": 88.211,
+        "source": "gyro"
+    },
+    {
+        "shot_number": 18,
+        "peak_time": 158.561,
+        "diff_from_prev": 4.425,
+        "confidence": 70.835,
+        "source": "gyro"
+    },
+    {
+        "shot_number": 19,
+        "peak_time": 163.279,
+        "diff_from_prev": 4.718,
+        "confidence": 100,
+        "source": "both"
+    }
+]
