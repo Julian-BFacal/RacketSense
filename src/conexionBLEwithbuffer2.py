@@ -1,3 +1,4 @@
+
 import asyncio
 import csv
 import os
@@ -8,17 +9,17 @@ from bleak import BleakClient, BleakScanner
 import struct
 
 # UUIDs for the service and characteristics
-SERVICE_UUID = "12345678-1234-1234-1234-123456789abc"
+SERVICE_UUID = "12345678-1234-1234-1234-123456789def"
 BLE_CHARACTERISTIC_UUID = "2C06"
 
-# Ensure 'data' folder exists
+# Ensure 'data' folder  nexists
 data_folder = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data')
 os.makedirs(data_folder, exist_ok=True)
 
 # CSV file setup
-csv_filename = os.path.join(data_folder, "imu_data.csv")
+csv_filename = os.path.join(data_folder, "imu_data2.csv")
 
-# Create a queue for buffering data before writing
+# Create a queue for buffering data before writing  
 data_queue = queue.Queue()
 
 # Flag to stop recording
