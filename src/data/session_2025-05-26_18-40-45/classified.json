@@ -1,0 +1,142 @@
+[
+    {
+        "peak_time": 34.41,
+        "label": 1.0
+    },
+    {
+        "peak_time": 39.496,
+        "label": 1.0
+    },
+    {
+        "peak_time": 42.059,
+        "label": 1.0
+    },
+    {
+        "peak_time": 45.633,
+        "label": 1.0
+    },
+    {
+        "peak_time": 49.813,
+        "label": 1.0
+    },
+    {
+        "peak_time": 54.403,
+        "label": 1.0
+    },
+    {
+        "peak_time": 57.577,
+        "label": 2.0
+    },
+    {
+        "peak_time": 61.339,
+        "label": 2.0
+    },
+    {
+        "peak_time": 66.843,
+        "label": 0.0
+    },
+    {
+        "peak_time": 75.421,
+        "label": 1.0
+    },
+    {
+        "peak_time": 78.855,
+        "label": 2.0
+    },
+    {
+        "peak_time": 106.717,
+        "label": 0.0
+    },
+    {
+        "peak_time": 110.704,
+        "label": 2.0
+    },
+    {
+        "peak_time": 115.514,
+        "label": 1.0
+    },
+    {
+        "peak_time": 120.706,
+        "label": 1.0
+    },
+    {
+        "peak_time": 125.222,
+        "label": 1.0
+    },
+    {
+        "peak_time": 130.079,
+        "label": 1.0
+    },
+    {
+        "peak_time": 135.1,
+        "label": 1.0
+    },
+    {
+        "peak_time": 139.231,
+        "label": 1.0
+    },
+    {
+        "peak_time": 144.001,
+        "label": 2.0
+    },
+    {
+        "peak_time": 149.306,
+        "label": 1.0
+    },
+    {
+        "peak_time": 151.741,
+        "label": 1.0
+    },
+    {
+        "peak_time": 155.585,
+        "label": 1.0
+    },
+    {
+        "peak_time": 160.477,
+        "label": 1.0
+    },
+    {
+        "peak_time": 166.774,
+        "label": 0.0
+    },
+    {
+        "peak_time": 171.049,
+        "label": 1.0
+    },
+    {
+        "peak_time": 174.769,
+        "label": 1.0
+    },
+    {
+        "peak_time": 178.644,
+        "label": 2.0
+    },
+    {
+        "peak_time": 183.841,
+        "label": 2.0
+    },
+    {
+        "peak_time": 190.488,
+        "label": 2.0
+    },
+    {
+        "peak_time": 197.529,
+        "label": 2.0
+    },
+    {
+        "peak_time": 201.414,
+        "label": 1.0
+    },
+    {
+        "peak_time": 205.301,
+        "label": 2.0
+    },
+    {
+        "peak_time": 212.885,
+        "label": 1.0
+    },
+    {
+        "peak_time": 221.066,
+        "label": 1.0
+    }
+]
